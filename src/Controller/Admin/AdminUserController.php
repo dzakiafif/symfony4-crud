@@ -34,8 +34,6 @@ class AdminUserController extends AbstractController
 
         $data = $this->userRepository->findAllUser();
 
-        dd('test');
-
         return new JsonResponse($data,JsonResponse::HTTP_OK);
 
     }
