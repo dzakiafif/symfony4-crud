@@ -14,6 +14,7 @@ class AdminHomeController extends AbstractController
      */
     public function index(Request $request)
     {
+        dd('oe');
         return $this->render('admin_home/index.html.twig', [
             'controller_name' => 'AdminHomeController'
         ]);
