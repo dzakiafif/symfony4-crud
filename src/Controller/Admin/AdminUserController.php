@@ -36,7 +36,7 @@ class AdminUserController extends AbstractController
 
         dd('test');
 
-        dd('oee');
+        dd('lalalalaa');
 
         return new JsonResponse($data,JsonResponse::HTTP_OK);
 
